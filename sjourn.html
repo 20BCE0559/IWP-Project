@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="top">
+        <li><h1>BayMax</h1></li>
+        <li id="logout"><a href="index.html">LOGOUT</a></li>
+    </ul>
+    <div>
+    <ul>
+        <li><a href="menu.html"><img src="home.png" alt="Home" class="icon"></a></li>
+        <li><a href="hlog.html"><img src="note.png" alt="Health log" class="icon"></a></li>
+        <li><a href="sjourn.html" id="active"><img src="symp.png" alt="Symptoms" class="icon"></a></li>
+        <li><a href="app.html"><img src="appointment.png" alt="Appointments" class="icon"></a></li>
+        <li><a href="presc.html"><img src="presc.png" alt="Prescription" class="icon"></a></li>
+        <li><a href="docs.html"><img src="doc.png" alt="Doctors and Clinics" class="icon"></a></li>
+        <li><a href="charts.html"><img src="chart.png" alt="Charts" class="icon"></a></li>
+    </ul>
+    <table><tr><td>
+    <h1>My symptom journal</h1>
+        <form action="" method="get">
+            <h2>Add a symptom</h2>
+            <label for="symptom">Select symptom type:</label><br>
+            <select name="symptom" id="doc">
+
+            </select><br><br>
+            <label for="dos">Day symptom occurred:</label>
+            <input type="date" name="dos"><br><br>
+            <label for="tos">Time symptom occurred:</label>
+            <input type="time" name="tos"><br><br>
+            <label for="add">Additional information you want to share with your doctor:</label>
+            <input type="text" name="add"><br><br>
+            <button type="submit">ADD SYMPTOM</button><br>
+        </form></td><td>
+    <div class="l">for log</div></td></tr>
+</table>
+</div>
+</body>
+</html>

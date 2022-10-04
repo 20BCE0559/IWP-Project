@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="top">
+        <li><h1>BayMax</h1></li>
+        <li id="logout"><a href="index.html">LOGOUT</a></li>
+    </ul>
+    <div>
+    <ul>
+        <li><a href="menu.html"><img src="home.png" alt="Home" class="icon"></a></li>
+        <li><a href="hlog.html" id="active"><img src="note.png" alt="Health log" class="icon"></a></li>
+        <li><a href="sjourn.html"><img src="symp.png" alt="Symptoms" class="icon"></a></li>
+        <li><a href="app.html"><img src="appointment.png" alt="Appointments" class="icon"></a></li>
+        <li><a href="presc.html"><img src="presc.png" alt="Prescription" class="icon"></a></li>
+        <li><a href="docs.html"><img src="doc.png" alt="Doctors and Clinics" class="icon"></a></li>
+        <li><a href="charts.html"><img src="chart.png" alt="Charts" class="icon"></a></li>
+    </ul>
+    <table><tr><td>
+    <div class="form">
+    <h1>My health log</h1>
+        <form action="" method="get">
+            <h2>Add doctor notes</h2><br>
+            <label for="doctor">Select a doctor:</label><br>
+            <select name="doctor" id="doc">
+
+            </select><br><br>
+            <label for="dodv">Date of doctor visit:</label><br>
+            <input type="date" name="dodv"><br><br>
+            <label for="rov">Reason of visit:</label>
+            <input type="text" name="rov"><br><br>
+            <label for="h">Height (in cm)</label>
+            <input type="number" name="h"><br><br>
+            <label for="w">Weight (in kg)</label>
+            <input type="number" name="w"><br><br>
+            <label for="wn">Visit notes:</label><br>
+            <input type="text" name="wn"><br><br>
+            <button type="submit">ADD NOTES</button>
+        </form>
+</div></td><td>
+<div class="l">for log</div></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

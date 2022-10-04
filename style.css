@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+    background-color: skyblue;
+    font-family: 'Source Sans Pro';
+    color: gray;
+    margin: 0%;
+}
+
+h1{
+    color: rgb(70, 70, 70);
+    margin-left: 3%;
+}
+
+form{
+    padding: 2%;
+    background-color: white;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgb(215, 215, 215);
+    width: 95%;
+}
+  
+input:focus {
+    outline: 0px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgb(206, 222, 255);
+} 
+
+select{
+    border: none;
+    border-bottom: 2px solid rgb(215, 215, 215);
+    width: 95%;
+}
+
+select:focus {
+  outline: 0px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+button {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+textarea{
+  width: 95%;
+}
+
+.eye{
+  padding: 0px;
+  background-color: rgb(215, 215, 215);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: rgb(63, 95, 108);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ul.top{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(63, 95, 108);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+ul.top li {
+  float: left;
+}
+
+ul.top li#logout{
+  float: right;
+  margin-right: 1%;
+  vertical-align: middle;
+}
+
+ul.top li a{
+  color: white;
+}
+
+li a {
+  display: block;
+  color: rgb(29, 44, 50);
+  padding: 8px 8px;
+  text-decoration: none;
+  margin: 0%;
+}
+li a#active {
+  background-color: skyblue;
+  color: rgb(63, 95, 108);
+}
+li a:hover:not(#active) {
+  background-color: rgb(29, 44, 50);
+  color: black;
+}
+span#l{
+  float: left;
+}
+
+.icon{
+  height: 25px;
+}
+
+table{
+  margin-left: 3%;
+}
+
+table tr td{
+  width: 40%;
+}
+
+body#menu{
+  text-align: center;
+}
+
+body#menu form{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5%;
+  padding-bottom: 0%;
+  width: 50%;
+}
+
+body#menu input{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+body#menu table{
+  margin-top: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+body#menu form table{
+  margin-top: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+body#menu form table.buttons{
+  width: 100%;
+}
+
+body#menu form table tr{
+  height: 20px;
+}
+
+body#menu form table.buttons tr td#x{
+  text-align: right;
+}
+
+body#menu form table tr.row3{
+  vertical-align: bottom;
+  height: 50px;
+}
+
+body#menu form table colgroup#col1{
+  width: 90%;
+}
+
+body#menu a:visited{
+  text-decoration-color: skyblue;
+  color: black;
+}
+
+.menuicons{
+  height: 20%;
+}
